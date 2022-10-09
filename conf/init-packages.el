@@ -57,6 +57,10 @@
     ein
     flycheck
     py-autopep8
+    ob-kotlin
+    kotlin-mode
+    clojure-mode
+    cider
     )
   "A list of packages to be installed at application lauch.")
 

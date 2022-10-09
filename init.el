@@ -67,7 +67,7 @@
 ;; grammarly
 ;; (require 'init-grammarly)
 ;; clojure
-;; (require 'init-clojure)
+(require 'init-clojure)
 ;; kotlin
 (require 'init-kotlin)
 ;; .emacs ends here
