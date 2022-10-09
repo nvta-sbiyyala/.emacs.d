@@ -70,8 +70,5 @@
 (require 'init-clojure)
 ;; kotlin
 (require 'init-kotlin)
-;; org sort tasks
-(require 'init-org-sort-tasks)
-(require 'init-org-insert-sorted-todo-heading)
 ;; .emacs ends here
 (put 'downcase-region 'disabled nil)

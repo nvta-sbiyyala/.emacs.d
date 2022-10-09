@@ -1,4 +1,4 @@
-(find-file "~/todo.org")
+(find-file "~/git/sbiyyala-docs/todo.org")
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 ;; (load-theme 'dracula t)
 
@@ -104,7 +104,7 @@
 
 ;; enable autopep8 formatting on save
 (require 'py-autopep8)
-(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+;; (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 ;; hack to overcome the no-show title
 (dolist (x '((ns-transparent-titlebar . unbound)
              (ns-appearance . unbound)))
