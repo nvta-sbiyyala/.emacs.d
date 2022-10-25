@@ -1,5 +1,5 @@
 * .emacs.d
-Shishir Biyyala's emacs config
+Shishir Biyyala's emacs config, built on top of the awesome http://github.com/squiter/emacs-fast-start.
 
 ** Current themes of interest
 1. dracula
