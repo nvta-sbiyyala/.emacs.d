@@ -1,0 +1,7 @@
+* .emacs.d
+Shishir Biyyala's emacs config
+
+** Current themes of interest
+1. dracula
+2. spacemacs-dark
+
