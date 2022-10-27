@@ -70,5 +70,7 @@
 (require 'init-clojure)
 ;; kotlin
 (require 'init-kotlin)
+;; emojify
+(require 'init-emojify)
 ;; .emacs ends here
 (put 'downcase-region 'disabled nil)
