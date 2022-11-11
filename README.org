@@ -5,3 +5,8 @@ Shishir Biyyala's emacs config, built on top of the awesome http://github.com/sq
 1. dracula
 2. spacemacs-dark
 
+** copy-pasting from term mode
+1. Make sure you are toggling read-only-mode in your term `C-x C-q (toggle read-only-mode )`
+2. `init-term-copy` has the shortcuts
+*** Resources
+1. https://apple.stackexchange.com/questions/85222/configure-emacs-to-cut-and-copy-text-to-mac-os-x-clipboard

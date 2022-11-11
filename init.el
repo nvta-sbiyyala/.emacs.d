@@ -72,5 +72,9 @@
 (require 'init-kotlin)
 ;; emojify
 (require 'init-emojify)
-;; .emacs ends here
+;; term-copy-paste
+(require 'init-term-copy)
+
 (put 'downcase-region 'disabled nil)
+(put 'company-keywords 'disabled nil)
+;; .emacs ends here
