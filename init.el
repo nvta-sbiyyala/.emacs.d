@@ -1,4 +1,5 @@
 ;; -*- mode: emacs-lisp -*-
+
 ;; ____________________________________________________________________________
 ;; Aquamacs custom-file warning:
 ;; Warning: After loading this .emacs file, Aquamacs will also load
@@ -45,6 +46,8 @@
 
 (add-to-list 'load-path (expand-file-name "conf" user-emacs-directory))
 (setq warning-minimum-level :emergency)
+(setq gc-cons-threshold 100000000)
+(setq use-package-always-ensure t)
 (setenv "PAGER" "cat")
 
 (require 'init-packages)

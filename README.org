@@ -5,12 +5,11 @@ Shishir Biyyala's emacs config, built on top of the awesome http://github.com/sq
 1. dracula
 2. spacemacs-dark
 
-** copy-pasting from term mode
-1. Make sure you are toggling read-only-mode in your term `C-x C-q (toggle read-only-mode )`
-2. `init-term-copy` has the shortcuts
+** emacs shell of choice
+After much tinkering, `vterm` emerged to be my shell of choice
 *** Resources
-1. https://apple.stackexchange.com/questions/85222/configure-emacs-to-cut-and-copy-text-to-mac-os-x-clipboard
-
-* WIP
-- `term` or `ansi-term` are proving to be quite inferior. Currently attempting to setup https://github.com/akermu/emacs-libvterm
+- https://github.com/akermu/emacs-libvterm
 - https://www.reddit.com/r/emacs/comments/mczu3i/help_me_compiling_vterm_emacs_beta/
+
+** WIP
+Borrow goodies from https://blog.sumtypeofway.com/posts/emacs-config.html! 
