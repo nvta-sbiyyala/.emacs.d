@@ -10,3 +10,7 @@ Shishir Biyyala's emacs config, built on top of the awesome http://github.com/sq
 2. `init-term-copy` has the shortcuts
 *** Resources
 1. https://apple.stackexchange.com/questions/85222/configure-emacs-to-cut-and-copy-text-to-mac-os-x-clipboard
+
+* WIP
+- `term` or `ansi-term` are proving to be quite inferior. Currently attempting to setup https://github.com/akermu/emacs-libvterm
+- https://www.reddit.com/r/emacs/comments/mczu3i/help_me_compiling_vterm_emacs_beta/

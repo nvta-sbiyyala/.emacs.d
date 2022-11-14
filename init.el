@@ -77,4 +77,8 @@
 
 (put 'downcase-region 'disabled nil)
 (put 'company-keywords 'disabled nil)
+
+;; vterm
+(add-to-list 'load-path "~/git/emacs-libvterm")
+(require 'vterm)
 ;; .emacs ends here
