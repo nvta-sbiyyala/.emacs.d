@@ -6,7 +6,7 @@ Shishir Biyyala's emacs config, built on top of the awesome http://github.com/sq
 2. spacemacs-dark
 
 ** emacs shell of choice
-After much tinkering, ~vterm~ emerged to be my shell of choice
+~vterm~ is the best shell for ~emacs~ in my opinion
 *** Resources
 - https://github.com/akermu/emacs-libvterm
 - https://www.reddit.com/r/emacs/comments/mczu3i/help_me_compiling_vterm_emacs_beta/
