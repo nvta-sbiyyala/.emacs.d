@@ -45,9 +45,6 @@
 ;; (package-initialize)
 
 (add-to-list 'load-path (expand-file-name "conf" user-emacs-directory))
-(setq warning-minimum-level :emergency)
-(setq gc-cons-threshold 100000000)
-(setq use-package-always-ensure t)
 (setenv "PAGER" "cat")
 
 (require 'init-packages)
@@ -84,4 +81,20 @@
 ;; vterm
 (add-to-list 'load-path "~/git/emacs-libvterm")
 (require 'vterm)
+
+;; https://blog.sumtypeofway.com/posts/emacs-config.html
+
+(setq warning-minimum-level :emergency)
+(setq gc-cons-threshold 100000000)
+(setq use-package-always-ensure t)
+
+;; fix whitespace treatment
+(add-hook 'before-save-hook #'delete-trailing-whitespace)
+(setq require-final-newline t)
+
+;; wrap lines, always
+(global-visual-line-mode t)
+
+;; restart from evaluating "Tree-sitter"
+
 ;; .emacs ends here
