@@ -49,6 +49,7 @@
 
 (require 'init-packages)
 (require 'init-simple-packages)
+(require 'use-package)
 
 (require 'init-constants)
 (require 'init-general)
@@ -81,6 +82,7 @@
 ;; vterm
 (add-to-list 'load-path "~/git/emacs-libvterm")
 (require 'vterm)
+(require 'init-vterm)
 
 ;; https://blog.sumtypeofway.com/posts/emacs-config.html
 
