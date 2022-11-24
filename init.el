@@ -84,6 +84,8 @@
 (require 'vterm)
 (require 'init-vterm)
 
+;; js2
+(require 'init-js2)
 ;; https://blog.sumtypeofway.com/posts/emacs-config.html
 
 (setq warning-minimum-level :emergency)
