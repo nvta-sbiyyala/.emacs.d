@@ -14,4 +14,3 @@ Shishir Biyyala's emacs config, built on top of the awesome http://github.com/sq
 
 ** WIP
 Borrow goodies from https://blog.sumtypeofway.com/posts/emacs-config.html!
-a
