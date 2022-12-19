@@ -1,5 +1,5 @@
 * !!UPDATE!! Dec 2022
-I am moving away from maintaining my personal emacs dot files, trying out [[https://github.com/syl20bnr/spacemacs/][spacemacs]]. `vterm` is missing from the stock `spacemacs` config, this snippet needs to be added to `init.el`
+I am moving away from maintaining my personal emacs dot files, trying out [[https://github.com/syl20bnr/spacemacs/][spacemacs]]. ~vterm~ is missing from the stock ~spacemacs~ config, this snippet needs to be added to ~init.el~
 #+name: emacs-lisp-hello-world
 #+begin_src elisp :exports both 
 (add-to-list 'load-path "~/git/emacs-libvterm")
