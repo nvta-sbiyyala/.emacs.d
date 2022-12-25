@@ -2,8 +2,20 @@
 I am moving away from maintaining my personal emacs dot files, trying out [[https://github.com/syl20bnr/spacemacs/][spacemacs]]. ~vterm~ is missing from the stock ~spacemacs~ config, this snippet needs to be added to ~init.el~
 #+name: emacs-lisp-hello-world
 #+begin_src elisp :exports both 
-(add-to-list 'load-path "~/git/emacs-libvterm")
-(require 'vterm)
+  (add-to-list 'load-path "~/git/emacs-libvterm")
+  (require 'vterm)
+  ;; Make emacs window title show path of current file
+  (setq-default frame-title-format
+                '(:eval
+                  (format "Happy Hacking! %s"
+                          (buffer-name)
+                          (cond
+                           (buffer-file-truename
+                            (concat "(" buffer-file-truename ")"))
+                           (dired-directory
+                            (concat "{" dired-directory "}"))
+                           (t
+                            "[no file]")))))
 #+end_src
 * .emacs.d
 Shishir Biyyala's emacs config, built on top of the awesome http://github.com/squiter/emacs-fast-start.
